@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#single-gif {
+    display: inline-block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 100px;
+    width: 50px;
+    background: transparent; /*rgba(233, 233, 233, 0.5);*/
+    margin: 0;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+#close {
+    height: 30px;
+    width: 30px;
+    position: fixed;
+    border: none;
+    background: rgba(233, 233, 233, 0.5);
+    color: white;
+    top: 0;
+    left: 0;
+}
+
+#mainImg {
+    top: 0;
+    left: 0;
+}
