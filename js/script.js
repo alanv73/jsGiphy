@@ -92,7 +92,7 @@ let getMore = () => {
 	}
 	numRecs = +$('#recs').val();
 	let endPoints = {
-		1 : `http://api.giphy.com/v1/gifs/search?q=${criteria}&api_key=${API_KEY}&limit=${numRecs}&rating=R&offset=${offset}`,
+		1 : `https://api.giphy.com/v1/gifs/search?q=${criteria}&api_key=${API_KEY}&limit=${numRecs}&rating=R&offset=${offset}`,
 		2 : `https://api.giphy.com/v1/gifs/trending?api_key=${API_KEY}&limit=${numRecs}&rating=R&offset=${offset}`
 	};
 	getGifs(endPoints[display_mode]);
