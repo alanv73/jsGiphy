@@ -102,7 +102,7 @@ let newSearch = () => {
 	display_mode = SEARCH_MODE;
 	let criteria = $('#criteria').val();
 	numRecs = +$('#recs').val();
-	let searchEndpoint = `http://api.giphy.com/v1/gifs/search?q=${criteria}&api_key=${API_KEY}&rating=R&limit=${numRecs}`;
+	let searchEndpoint = `https://api.giphy.com/v1/gifs/search?q=${criteria}&api_key=${API_KEY}&rating=R&limit=${numRecs}`;
 	section.html('');
 	let h2 = document.createElement('h2');
 	h2.textContent = criteria;
