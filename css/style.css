@@ -33,3 +33,23 @@ body {
     top: 0;
     left: 0;
 }
+
+#footnote {
+    font-size: 10px;
+}
+
+#giphy-title {
+    display: inline-block;
+}
+
+.giphy-logo {
+    display: inline-block;
+    height: 35px;
+    position: relative;
+    width: 165px;
+    color: #bb7d09;
+}
+
+#photos h2 {
+    color: #318a85;
+}
